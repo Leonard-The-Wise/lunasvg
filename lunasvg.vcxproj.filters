@@ -13,7 +13,7 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Exports">
+    <Filter Include="Include">
       <UniqueIdentifier>{63e7a01c-673e-448f-b126-1429a5ed5ca7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -79,7 +79,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\lunasvg.h">
-      <Filter>Exports</Filter>
+      <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +141,33 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="source\useelement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\plutovg\plutovg-blend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\plutovg\plutovg-dash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\plutovg\plutovg-geometry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\plutovg\plutovg-paint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\plutovg\plutovg-rle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\plutovg\plutovg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\software\sw_ft_stroker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\software\sw_ft_math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\software\sw_ft_raster.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

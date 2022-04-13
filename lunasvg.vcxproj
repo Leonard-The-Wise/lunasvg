@@ -170,6 +170,15 @@
     <ClInclude Include="source\useelement.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3rdparty\plutovg\plutovg-blend.c" />
+    <ClCompile Include="3rdparty\plutovg\plutovg-dash.c" />
+    <ClCompile Include="3rdparty\plutovg\plutovg-geometry.c" />
+    <ClCompile Include="3rdparty\plutovg\plutovg-paint.c" />
+    <ClCompile Include="3rdparty\plutovg\plutovg-rle.c" />
+    <ClCompile Include="3rdparty\plutovg\plutovg.c" />
+    <ClCompile Include="3rdparty\software\sw_ft_math.c" />
+    <ClCompile Include="3rdparty\software\sw_ft_raster.c" />
+    <ClCompile Include="3rdparty\software\sw_ft_stroker.c" />
     <ClCompile Include="source\canvas.cpp" />
     <ClCompile Include="source\clippathelement.cpp" />
     <ClCompile Include="source\defselement.cpp" />
